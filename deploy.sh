@@ -35,3 +35,5 @@ done
 # Check again
 echo "Check: Empty is ok"
 otool -L $1/Contents/Frameworks/*.dylib $1/Contents/MacOS/* | grep /usr/local
+
+exit 0
